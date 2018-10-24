@@ -11,7 +11,7 @@ logo: "/immagini/logo.png" # idealmente, 150x150px
 # Build settings
 permalink: :title/
 sass:
-  sass_dir: {{ site.baseurl }}/css
+  sass_dir: /css
 
 # Social
 show_social_icons: true
