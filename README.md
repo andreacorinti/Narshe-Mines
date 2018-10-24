@@ -23,9 +23,9 @@ Theme per Jekyll realizzato per il sito di [Radio Moguri](https://radiomoguri.gi
 - [ ] Snippet
 - [ ] Includere https://okazari.github.io/Rythm.js/
 - [ ] Rendere più user-friendly le personalizzazioni (colori e altre variabili)
-- [ X ] Studiare posizione/forma logo
-- [ X ] Cambiare immagine logo
-- [ X ] Dare accesso all'Archivio
+- [X] Studiare posizione/forma logo
+- [X] Cambiare immagine logo
+- [X] Dare accesso all'Archivio
 
 # Credits
 
