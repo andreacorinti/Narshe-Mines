@@ -1,3 +1,8 @@
+---
+---
+
+$baseurl: "{{ site.baseurl }}";
+
 /* Colori */
 
 $body-color: #d4d4dc; // testo
@@ -37,7 +42,7 @@ $info: #d4d4dc; // colore secondario
     font-style: normal;
   }
 }
-@include font('Final-Fantasy-36', '/css/font/Final-Fantasy-36');
+@include font('Final-Fantasy-36', $baseurl + '/assets/font/Final-Fantasy-36');
 
 $font-family-base: "Final-Fantasy-36"; // cambia il font strutturale
 $font-post: "Courier"; // cambia il font dei post
