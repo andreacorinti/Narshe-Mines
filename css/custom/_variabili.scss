@@ -16,8 +16,11 @@ $info: #d4d4dc; // colore secondario
 .navbar-brand {
   color: $primary !important;
 }
+.navbar-toggler {
+  border-color: $primary !important;
+}
 .navbar-toggler-icon {
-  color: $primary !important;
+  border-color: $info !important;
 }
 
 /* Font */

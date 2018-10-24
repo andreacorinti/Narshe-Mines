@@ -14,8 +14,11 @@
 .navbar-brand {
   color: #148fbc !important; }
 
+.navbar-toggler {
+  border-color: #148fbc !important; }
+
 .navbar-toggler-icon {
-  color: #148fbc !important; }
+  border-color: #d4d4dc !important; }
 
 /* Font */
 @font-face {
