@@ -16,6 +16,9 @@ $info: #d4d4dc; // colore secondario
 .navbar-brand {
   color: $primary !important;
 }
+.navbar-toggler-icon {
+  color: $primary !important;
+}
 
 /* Font */
 // importo vari formati per massimizzare compatibilità
