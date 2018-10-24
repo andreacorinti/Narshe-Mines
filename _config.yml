@@ -3,7 +3,7 @@ title: Narshe Mines
 email: somemail@mail.com
 author: Andrea Corinti
 description: Breve descrizione del sito
-url: https://andreacorinti.github.io/narshe-mines/ 
+url:
 
 # Logo
 logo: "/immagini/logo.png" # idealmente, 150x150px
@@ -11,7 +11,7 @@ logo: "/immagini/logo.png" # idealmente, 150x150px
 # Build settings
 permalink: :title/
 sass:
-  sass_dir: css
+  sass_dir: {{ site.baseurl }}/css
 
 # Social
 show_social_icons: true
