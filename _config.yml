@@ -1,1 +1,25 @@
-theme: jekyll-theme-cayman
+# Configurazione del Sito
+title: Narshe Mines
+email: somemail@mail.com
+author: Andrea Corinti
+description: Breve descrizione del sito
+url:
+
+# Logo
+logo: "/immagini/logo.png" # idealmente, 150x150px
+
+# Build settings
+permalink: :title/
+sass:
+  sass_dir: css
+
+# Social
+show_social_icons: true
+github: github
+facebook: github
+instagram: github
+twitter: github
+
+# Paginate
+plugins: [jekyll-paginate]
+paginate: 3 # imposta il numero di news visibili nella home

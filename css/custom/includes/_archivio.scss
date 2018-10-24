@@ -1,0 +1,9 @@
+#archivio {
+  a {
+    text-decoration: none;
+    border: none;
+    &:hover {
+      color: $info;
+    }
+  }
+}

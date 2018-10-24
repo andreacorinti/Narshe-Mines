@@ -1,0 +1,26 @@
+<section id="posts" class="py-1">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1 class="text-primary">News</h1>
+        <hr />
+        {% for post in paginator.posts %}
+          <div>
+            <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+            <p class="text-info lead">
+              {{ post.date | date: "%d %-b, %Y" }}
+            </p>
+
+            <p>
+              {% if post.summary %}
+                {{ post.summary }}
+              {% else %}
+                {{ post.excerpt }}
+              {% endif %}
+            </p>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

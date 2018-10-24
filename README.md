@@ -1,37 +1,50 @@
-## Welcome to GitHub Pages
+---
+layout: post
+title: About
+permalink: /about/
+---
 
-You can use the [editor on GitHub](https://github.com/andreacorinti/narshemines/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Narshe Mines
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Theme per Jekyll realizzato per il sito di [Radio Moguri](https://radiomoguri.github.io)
 
-### Markdown
+### To do:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- [ ] fix colori codice e h5
+- [ ] Creare un layout per gli articoli
+- [ ] Valutare thumbs
+- [ ] Studiare una pagina crew
+- [ ] Rivedere il footer dei post e degli articoli
+- [ ] Date in italiano
+- [ ] Migliorare la risposta su alcune risoluzioni mobili (ipad ecc)
+- [ ] Favicon
+- [ ] Google Analytics
+- [ ] Speedtest
+- [ ] Snippet
+- [ ] Includere https://okazari.github.io/Rythm.js/
+- [ ] Rendere più user-friendly le personalizzazioni (colori e altre variabili)
+- [ X ] Studiare posizione/forma logo
+- [ X ] Cambiare immagine logo
+- [ X ] Dare accesso all'Archivio
 
-```markdown
-Syntax highlighted code block
+# Credits
 
-# Header 1
-## Header 2
-### Header 3
+## Autore
 
-- Bulleted
-- List
+[Andrea Corinti](https:/andreacorinti.github.io)
 
-1. Numbered
-2. List
+## Tech
 
-**Bold** and _Italic_ and `Code` text
+* [Jekyll](https://jekyllrb.com)
+* [Bootstrap](https://getbootstrap.com)
+* [Rythm.js](https://okazari.github.io/Rythm.js/)
 
-[Link](url) and ![Image](src)
-```
+## Stile
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+* [Final Fantasy 3/6 Font](https://fonts2u.com/final-fantasy-36-font-regular.font)
+* [Font Awesome](https://fontawesome.com)
 
-### Jekyll Themes
+## Altri
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/andreacorinti/narshemines/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+* [Nick Riebeek](https://experimentingwithcode.com)
+* [Michael Rose](https://mademistakes.com/)

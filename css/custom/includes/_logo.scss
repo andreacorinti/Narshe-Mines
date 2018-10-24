@@ -1,0 +1,33 @@
+.site-logo-img {
+  width: $site-logo-larghezza;
+  height: $site-logo-altezza;
+  // border: 3px solid $info;
+  //border-radius: $site-logo-larghezza;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  position: relative;
+}
+
+.titolo-logo {
+  color: $info;
+  text-shadow: 1px 2px 4px rgba(150, 150, 150, 0.50);
+  position: relative;
+}
+
+.site-description {
+  color: $info;
+  margin-bottom: 1em;
+  font-style: italic;
+  position: relative;
+}
+
+.contenitore-logo {
+  background-image: linear-gradient($primary, $body-bg);
+  background-size: cover;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin-bottom: auto;
+}
