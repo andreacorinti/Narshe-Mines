@@ -6,7 +6,7 @@ permalink: /about/
 
 Narshe Mines
 
-Theme per Jekyll realizzato per il sito di [Radio Moguri](https://radiomoguri.github.io)
+Theme per Jekyll in costruzione per il sito di [Radio Moguri](https://radiomoguri.github.io)
 
 ### To do:
 
