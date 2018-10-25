@@ -40,9 +40,7 @@ $info: #d4d4dc; // colore secondario
 
 @font-face {
     font-family: "Final-Fantasy-36";
-    src: url("../{{ site.baseurl }}/assets/font/Final-Fantasy-36") format('truetype');
-    font-weight: bold;
-    font-style: normal;
+    src: url("../assets/font/Final-Fantasy-36.woff");
 }
 
 // @include font('Final-Fantasy-36', '/assets/font/Final-Fantasy-36'); -> locale

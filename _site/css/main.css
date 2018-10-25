@@ -23,9 +23,7 @@
 /* Font */
 @font-face {
   font-family: "Final-Fantasy-36";
-  src: url("../{{ site.baseurl }}/assets/font/Final-Fantasy-36") format("truetype");
-  font-weight: bold;
-  font-style: normal; }
+  src: url("../assets/font/Final-Fantasy-36.woff"); }
 /* Logo */
 /* Stile Codice */
 :root {
