@@ -40,7 +40,7 @@ $info: #d4d4dc; // colore secondario
 
 @font-face {
     font-family: "Final-Fantasy-36";
-    src: url("./narshe-mines/assets/font/Final-Fantasy-36") format('truetype');
+    src: url("{{ site.baseurl }}/assets/font/Final-Fantasy-36") format('truetype');
     font-weight: bold;
     font-style: normal;
 }
