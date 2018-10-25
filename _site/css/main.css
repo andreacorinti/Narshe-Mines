@@ -23,7 +23,10 @@
 /* Font */
 @font-face {
   font-family: "Final-Fantasy-36";
-  src: url("../narsh-mines/assets/font/Final-Fantasy-36"); }
+  src: url("../narsh-mines/assets/font/Final-Fantasy-36.eot");
+  src: url("../narsh-mines/assets/font/Final-Fantasy-36.eot?#iefix") format("embedded-opentype"), url("../narsh-mines/assets/font/Final-Fantasy-36.woff") format("woff"), url("../narsh-mines/assets/font/Final-Fantasy-36.ttf") format("truetype"), url("../narsh-mines/assets/font/Final-Fantasy-36.svg#aller") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 /* Logo */
 /* Stile Codice */
 :root {
