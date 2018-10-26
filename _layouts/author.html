@@ -4,20 +4,27 @@ layout: default
 
 <div id="post" class="container pt-3">
 
-<div class="text-center">
-  <h1>{{ page.name }}</h1>
-  <img src="{{ page.avatar }}" class="rounded" alt="...">
-</div>
-<h2>{{ page.ruolo }}</h2>
+  <div class="row">
+    <div class="col-sm-6">
+      <h2>{{ page.ruolo }}</h2>
+      {{ content }}
 
-{{ content }}
+    </div>
+    <div class="col-sm-5 text-center">
+      <h1>{{ page.name }}</h1>
+      <img src="{{ page.avatar }}" class="rounded" alt="{{ page.name }}">
+    </div>
+  </div>
 
-<h2>Ha scritto:</h2>
-<ul>
-  {% assign filtered_posts = site.posts | where: 'author', page.short_name %}
-  {% for post in filtered_posts %}
-    <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-    {{ post.summary }}
-  {% endfor %}
-</ul>
+  <div class="container">
+    <h2>Ha scritto:</h2>
+    <ul>
+      {% assign filtered_posts = site.posts | where: 'author', page.short_name %}
+      {% for post in filtered_posts %}
+      <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+      {{ post.summary }}
+      {% endfor %}
+    </ul>
+  </div>
+  <hr  />
 </div>
