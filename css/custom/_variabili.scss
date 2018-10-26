@@ -43,7 +43,6 @@ $info: #d4d4dc; // colore secondario
     src: url("../assets/font/Final-Fantasy-36.woff");
 }
 
-
 $font-family-base: "Final-Fantasy-36"; // cambia il font strutturale
 $font-post: "Courier"; // cambia il font dei post
 
@@ -53,5 +52,6 @@ $site-logo-altezza: 150px !default;
 
 /* Stile Codice */
 
-$heading-codice: #dededc; // light grey
-$testo-codice: #b6b6b6; // off white
+$heading-codice: $info; // sfondo titolo
+$titolo-codice: $primary; // testo titolo
+$testo-codice: $info; // testo codice

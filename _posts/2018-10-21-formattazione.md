@@ -2,6 +2,7 @@
 layout: post
 title: Formattazione
 summary: Post che mostra un po' di formattazione markdown
+author: locke
 ---
 
 # H1

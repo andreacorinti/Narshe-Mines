@@ -5,8 +5,29 @@ author: Andrea Corinti
 description: Breve descrizione del sito
 url:
 
+# Collection / Autori
+
+collections:
+  authors:
+    output: true
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
 # Logo
-logo: "/immagini/logo.png" # idealmente, 150x150px
+logo: "/assets/immagini/logo.png" # idealmente, 150x150px
 
 # Build settings
 permalink: :title/
@@ -20,6 +41,9 @@ facebook: github
 instagram: github
 twitter: github
 
+# Plugin
+plugins:
+  - jekyll-paginate
+
 # Paginate
-plugins: [jekyll-paginate]
 paginate: 3 # imposta il numero di news visibili nella home

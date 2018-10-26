@@ -10,7 +10,9 @@ Theme per Jekyll in costruzione per il sito di [Radio Moguri](https://radiomogur
 
 ### To do:
 
-- [ ] fix colori codice e h5
+- [ ] Autori dei post
+- [ ] Sistemare quel cavolo di plugin per le pagine di fb
+- [ ] Jekyll collections per paginate
 - [ ] Creare un layout per gli articoli
 - [ ] Valutare thumbs
 - [ ] Studiare una pagina crew
@@ -23,9 +25,11 @@ Theme per Jekyll in costruzione per il sito di [Radio Moguri](https://radiomogur
 - [ ] Snippet
 - [ ] Includere https://okazari.github.io/Rythm.js/
 - [ ] Rendere più user-friendly le personalizzazioni (colori e altre variabili)
+- [X] fix colori codice e h5
+- [X] Font
 - [X] Studiare posizione/forma logo
 - [X] Cambiare immagine logo
-- [X] Dare accesso all'Archivio
+- [X] Dare accesso all'Archivio News
 
 # Credits
 

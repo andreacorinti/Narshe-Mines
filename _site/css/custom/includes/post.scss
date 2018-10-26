@@ -8,20 +8,17 @@
     padding-top: 10px;
     font-family: "Final-Fantasy-36";
   }
+
   img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    margin-top: 20px;
-    margin-bottom: 40px;
     max-width: 100%;
   }
+
   /******************************
   * STILI PER IL CODICE
   ******************************/
   // heading per il codice
   h5 {
+    color: $titolo-codice;
     background: none repeat scroll 0% 0% $heading-codice;
     padding: 10px 15px;
     margin-bottom: 0px;

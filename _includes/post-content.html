@@ -1,4 +1,4 @@
-<div id="post" class="container pt-3">
+<div id="post" class="container pt-4">
   <div class="row">
     <div class="col">
       <p class="lead text-info">
@@ -8,6 +8,10 @@
       <article>
         {{ content }}
       </article>
+        {% assign author = site.authors | where: 'short_name', page.author | first %}
+        {% if author %}
+        {% include footer-autore.html %}
+        {% endif %}
     </div>
   </div>
 </div>

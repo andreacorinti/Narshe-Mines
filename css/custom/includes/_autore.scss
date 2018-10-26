@@ -1,0 +1,19 @@
+.autore-sfondo {
+  background-image: linear-gradient($body-bg, $primary);
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-bottom: auto;
+}
+
+.autore-avatar {
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    opacity: 0.8;
+
+    &:hover {
+      opacity: 1;
+    }
+}

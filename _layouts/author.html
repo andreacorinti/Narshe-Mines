@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div id="post" class="container pt-3">
+
+<h1>{{ page.name }}</h1>
+<div class="text-center">
+  <img src="{{ page.avatar }}" class="rounded" alt="...">
+</div>
+<h2>{{ page.ruolo }}</h2>
+
+{{ content }}
+
+<h2>Ha scritto:</h2>
+<ul>
+  {% assign filtered_posts = site.posts | where: 'author', page.short_name %}
+  {% for post in filtered_posts %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {{ post.summary }}
+  {% endfor %}
+</ul>
+</div>

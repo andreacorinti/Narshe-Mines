@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Primo Post
+author: terra
 summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, dolore.
 ---
 
