@@ -4,7 +4,7 @@ email: somemail@mail.com
 author: Andrea Corinti
 description: Breve descrizione del sito
 url:  #
-baseurl: "/narshe-mines/"
+baseurl: "/narshe-mines"
 
 # Collection / Autori
 
