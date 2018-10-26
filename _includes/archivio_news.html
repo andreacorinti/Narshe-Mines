@@ -9,6 +9,7 @@
               <span>{{ post.date | date: "%b %d, %Y" }}</span> -
               <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
             </li>
+            {{ post.summary }}
           {% endfor %}
         </ul>
       </div>

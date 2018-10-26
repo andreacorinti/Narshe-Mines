@@ -6561,24 +6561,22 @@ a.text-dark:hover, a.text-dark:focus {
   color: #d4d4dc; }
 
 #post {
+  max-width: 960px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.3);
   /******************************
   * STILI PER IL CODICE
   ******************************/ }
   #post article {
     font-family: "Courier"; }
-  #post h1, #post h2, #post h3, #post h4 {
+  #post h1, #post h2, #post h3, #post h4, #post h5 {
     color: #3938b8;
     padding-top: 10px;
     font-family: "Final-Fantasy-36"; }
   #post img {
     max-width: 100%; }
-  #post h5 {
-    color: #3938b8;
-    background: none repeat scroll 0% 0% #d4d4dc;
-    padding: 10px 15px;
-    margin-bottom: 0px;
-    border-radius: 3px 3px 0px 0px;
-    font-family: "Final-Fantasy-36"; }
+  #post a:hover {
+    color: #d4d4dc; }
   #post .highlight pre {
     padding: 10px; }
     #post .highlight pre code {
@@ -6605,6 +6603,15 @@ a.text-dark:hover, a.text-dark:focus {
   opacity: 0.8; }
   .autore-avatar:hover {
     opacity: 1; }
+
+.autore-avatar-link {
+  opacity: 0.8; }
+  .autore-avatar-link:hover {
+    opacity: 1; }
+
+.footer {
+  margin-top: 30px;
+  background-color: rgba(0, 0, 0, 0.3); }
 
 /* Solarized Dark
 

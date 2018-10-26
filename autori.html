@@ -3,17 +3,20 @@ layout: default
 title: Autori
 permalink: /autori/
 ---
-<div class="container">
-  <h1 class="text-primary">Autori</h1>
-  <ul>
-    {% for author in site.authors %}
-      <li>
-        <h2><a href="{{ site.baseurl }}{{ author.url }}">{{ author.name }}</a></h2>
-        <h3>{{ author.ruolo }}</h3>
-        <p>{{ author.content | markdownify }}</p>
-      </li>
-    {% endfor %}
-  </ul>
 
-  <hr />
+<div class="container">
+  <h1 class="text-primary text-center">Autori</h1>
+  <hr  />
+  <div class="card-deck">
+    {% for author in site.authors %}
+    <div class="card bg-primary">
+      <h2 class="card-title text-center">{{ author.name }}</h2>
+      <a href="{{ site.baseurl }}{{ author.url }}"><img class="card-img-top autore-avatar-link" src="{{ author.avatar }}/100px180/" alt="Card image cap"></a>
+      <div class="card-body">
+        <h5 class="card-title">{{ author.ruolo }}</h5>
+        <p class="card-text">{{ author.presentazione }}</p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
 </div>
