@@ -2,10 +2,13 @@
 
 $body-color: #d4d4dc; // testo #d4d4dc
 $body-bg: #151515; // sfondo #151515
-$primary: #3938b8; // colore principale 3938b8
+$primary: #605FC6; // colore principale 3938b8
 $info: #d4d4dc; // colore secondario d4d4dc
 
+// stile body
+
 body {
+  font-size: 18px !important;
   text-shadow:
    -1px -1px 0 #000,
     1px -1px 0 #000,
@@ -52,7 +55,7 @@ body {
 }
 
 $font-family-base: "Final-Fantasy-36"; // cambia il font strutturale
-$font-post: "Courier"; // cambia il font dei post
+$font-post: "Final-Fantasy-36"; //"Courier"; // cambia il font dei post
 
 /* Logo */
 $site-logo-larghezza: 150px !default;
