@@ -1,16 +1,16 @@
 ---
 layout: default
-title: Archivio News
-permalink: /archivio-news/
+title: Archivio
+permalink: /archivio/
 ---
 
 <section id="archivio">
   <div class="container py-3">
     <div class="row">
       <div class="col">
-        <h1 class="text-primary">Archivio News</h1>
+        <h1 class="text-primary">Archivio</h1>
         <ul>
-          {% for post in site.tags.news %}
+          {% for post in site.posts %}
             <li>
               <h3><span>{{ post.date | date: "%b %d, %Y" }}</span> -
               <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</h3></a>
