@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Secondo Post
+author: mog
+tags: news
 summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, dolore.
 ---
 

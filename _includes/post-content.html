@@ -8,10 +8,6 @@
       <article>
         {{ content }}
       </article>
-        {% assign author = site.authors | where: 'short_name', page.author | first %}
-        {% if author %}
-          {% include footer-autore.html %}
-        {% endif %}
         {% include commenti.html %}
         <hr  />
     </div>

@@ -1,19 +1,24 @@
 /* Colori */
 
 $body-color: #d4d4dc; // testo #d4d4dc
-$body-bg: #151515; // sfondo #151515
+$body-bg: #0e0e25; // sfondo #151515
 $primary: #605FC6; // colore principale 3938b8
 $info: #d4d4dc; // colore secondario d4d4dc
 
 // stile body
-
 body {
   font-size: 18px !important;
+  margin: 0 auto !important;
+  max-width: 960px;
   text-shadow:
    -1px -1px 0 #000,
     1px -1px 0 #000,
     -1px 1px 0 #000,
      1px 1px 0 #000;
+}
+
+.blockquote-footer {
+    color: $info !important;
 }
 
 /* Navbar */

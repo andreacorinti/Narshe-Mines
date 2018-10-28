@@ -2,6 +2,7 @@
 layout: post
 title: Quarto Post
 author: locke
+tags: news
 summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, dolore.
 ---
 

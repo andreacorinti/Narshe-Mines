@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="it">
+{% include head.html %}
+</html>
+<body>
+  {% include navbar.html %}
+  <div id="post" class="container pt-3">
+        <div class="text-center">
+          <h1>{{ page.title }}</h1>
+          <p class="lead text-info">
+            {{ page.date | date: "%d %-b, %Y" }}
+          </p>
+          <figure class="figure">
+            <img src="{{ page.immagine }}" class="figure-img img-fluid rounded" alt="{{ page.title }}">
+          </figure>
+        </div>
+        <article>
+          {{ content }}
+        </article>
+        {% assign author = site.authors | where: 'short_name', page.author | first %}
+        {% if author %}
+        {% include footer-autore.html %}
+        {% endif %}
+        {% include commenti.html %}
+        <hr  />
+  </div>
+
+  {% include footer.html %}
+</body>
+</html>

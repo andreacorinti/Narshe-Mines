@@ -11,7 +11,7 @@ permalink: /autori/
     {% for author in site.authors %}
     <div class="card bg-primary">
       <h2 class="card-title text-center">{{ author.name }}</h2>
-      <a href="{{ site.baseurl }}{{ author.url }}"><img class="card-img-top autore-avatar-link" src="{{ author.avatar }}/100px180/" alt="Card image cap"></a>
+      <a href="{{ site.baseurl }}{{ author.url }}"><img class="card-img-top autore-avatar-link" src="{{ author.avatar }}/100px180/" alt="{{ author.name }}"></a>
       <div class="card-body">
         <h5 class="card-title">{{ author.ruolo }}</h5>
         <p class="card-text">{{ author.presentazione }}</p>

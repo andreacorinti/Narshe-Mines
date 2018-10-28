@@ -10,12 +10,13 @@ Theme per Jekyll in costruzione per il sito di [Radio Moguri](https://radiomogur
 
 ### To do:
 
-- [ ] Autori dei post
+- [ ] Player
+- [X] Autori dei post
 - [ ] Sistemare quel cavolo di plugin per le pagine di fb
-- [ ] Jekyll collections per paginate
+- [X] Jekyll collections per paginate
 - [ ] Creare un layout per gli articoli
 - [ ] Valutare thumbs
-- [ ] Studiare una pagina crew
+- [X] Studiare una pagina crew
 - [ ] Rivedere il footer dei post e degli articoli
 - [ ] Date in italiano
 - [ ] Migliorare la risposta su alcune risoluzioni mobili (ipad ecc)

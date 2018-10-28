@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Formattazione
+author: false
+tags: [news]
 summary: Post che mostra un po' di formattazione markdown
-author: locke
 ---
 
 # H1

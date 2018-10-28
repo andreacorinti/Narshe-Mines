@@ -4,3 +4,42 @@ title: Articoli
 permalink: /articoli/
 collection: articoli
 ---
+
+{% for category in site.categories %}
+  <div class="archive-group">
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+    <div id="#{{ category_name | slugize }}"></div>
+    <p></p>
+
+    <h3 class="category-head">{{ category_name }}</h3>
+    <a name="{{ category_name | slugize }}"></a>
+    {% for post in site.categories[category_name] %}
+    <article class="archive-item">
+      <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
+    </article>
+    {% endfor %}
+  </div>
+{% endfor %}
+
+<div class="container">
+  <h1 class="text-primary text-center">Articoli</h1>
+
+  <div class="card-deck">
+    {% for post in site.categories.final-fantasy-vi %}
+    <div class="card bg-primary text-center p-3">
+      <h4 class="card-title">{{ post.title }}</h4>
+
+      <a href="{{ post.url | prepend: site.baseurl }}"><img class="card-img-top autore-avatar-link" src="{{ post.immagine }}" alt="{{ post.title }}"></a>
+
+      <blockquote class="blockquote mb-0">
+        <p>{{ post.summary }}</p>
+        <footer>
+          <small>
+            {{ post.date | date: "%b %d, %Y" }}</cite>
+          </small>
+        </footer>
+      </blockquote>
+    </div>
+    {% endfor %}
+  </div>
+</div>

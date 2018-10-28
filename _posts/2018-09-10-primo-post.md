@@ -2,6 +2,7 @@
 layout: post
 title: Primo Post
 author: terra
+tags: news
 summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, dolore.
 ---
 

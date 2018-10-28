@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Terzo Post
-summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, dolore.
+author: false
+tags: news
+summary: Post senza autore.
 ---
 
 ## Lorem

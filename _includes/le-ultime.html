@@ -1,0 +1,26 @@
+<section id="posts" class="py-1">
+
+  <h1><i class="far fa-newspaper"></i> Le Ultime</h1>
+  <hr />
+  {% for post in paginator.posts %}
+  <div>
+    <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+    <p class="text-info lead">
+      {{ post.date | date: "%d %-b, %Y" }}
+    </p>
+
+    <p>
+      {% if post.summary %}
+      {{ post.summary }}
+      {% else %}
+      {{ post.excerpt }}
+      {% endif %}
+    </p>
+  </div>
+  {% endfor %}
+
+  <div class="container">
+    <a class="btn btn-primary" href="{{ site.baseurl }}/archivio-news/"><i class="fas fa-archive"></i> Tutte le News</a>
+  </div>
+
+</section>
