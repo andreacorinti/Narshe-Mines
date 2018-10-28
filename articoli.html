@@ -20,7 +20,6 @@ collection: articoli
         <h2 class="card-title text-center">{{ post.title }}</h2>
         <a href="{{ post.url | prepend: site.baseurl }}"><img class="card-img-top autore-avatar-link" src="{{ post.immagine }}" alt="{{ post.title }}"></a>
         <div class="card-body">
-          <h5 class="card-title">{{ post.title }}</h5>
           <p class="card-text">{{ post.summary }}</p>
         </div>
       </div>
