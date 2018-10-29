@@ -35,7 +35,7 @@ logo: "/assets/immagini/logo.png" # idealmente, 150x150px
 # Build settings
 permalink: :title/
 sass:
-  sass_dir: /css
+  sass_dir: _sass
 
 # Social
 show_social_icons: true

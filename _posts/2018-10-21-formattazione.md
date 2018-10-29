@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: pagina
 title: Formattazione
 author: false
 tags: [news]

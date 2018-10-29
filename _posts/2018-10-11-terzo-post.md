@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: pagina
 title: Terzo Post
 author: false
 tags: news

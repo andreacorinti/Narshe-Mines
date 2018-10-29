@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: pagina
 title: Quarto Post
 author: locke
 tags: news

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: pagina
 title: Primo Post
 author: terra
 tags: news
