@@ -1,0 +1,10 @@
+nav:
+
+- title: Articoli
+  url: /articoli/
+- title: Autori
+  url: /autori/
+- title: About
+  url: /about/
+- title: Contatti
+  url: https://m.me/{{ site.facebook }}
