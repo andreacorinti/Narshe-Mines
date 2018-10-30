@@ -8,6 +8,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         {% for item in site.data.navbar.nav %}
+        <!--assegno il baseurl con "domain", escludendo i link esterni e a mailto-->
         {% if item.url contains 'http' %}
         {% assign domain = '' %}
         {% elsif item.url contains 'mailto' %}
