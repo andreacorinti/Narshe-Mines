@@ -10,19 +10,21 @@ Theme per Jekyll in costruzione per il sito di [Radio Moguri](https://radiomogur
 
 ### To do:
 
+Implementare pure qua jekyll-seo-tag come già fatto su Radio Moguri
+
 - [ ] Player
 - [X] Autori dei post
 - [ ] Sistemare quel cavolo di plugin per le pagine di fb
 - [X] Jekyll collections per paginate
-- [ ] Creare un layout per gli articoli
-- [ ] Valutare thumbs
+- [X] Creare un layout per gli articoli
+- [X] Valutare thumbs
 - [X] Studiare una pagina crew
 - [ ] Rivedere il footer dei post e degli articoli
 - [ ] Date in italiano
 - [ ] Migliorare la risposta su alcune risoluzioni mobili (ipad ecc)
-- [ ] Favicon
+- [X] Favicon
 - [ ] Google Analytics
-- [ ] Speedtest
+- [X] Speedtest
 - [ ] Snippet
 - [ ] Includere https://okazari.github.io/Rythm.js/
 - [ ] Rendere più user-friendly le personalizzazioni (colori e altre variabili)
