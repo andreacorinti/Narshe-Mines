@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+# Deprecated
+
 Narshe Mines
 
 Theme per Jekyll in costruzione per il sito di [Radio Moguri](https://radiomoguri.github.io)
